@@ -1,9 +1,7 @@
 from flask import Flask,render_template,request
-import requests
 from flask_sock import Sock
 import asyncio
 import websocket
-import rel
 app = Flask(__name__)
 sock =Sock(app)
 loop = asyncio.get_event_loop()
