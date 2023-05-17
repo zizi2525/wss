@@ -64,7 +64,7 @@ def so(ws,**kwargs):
 @sock.route('/e/<path:path>') 
 def sos(ws,**kwargs):
  
-
+    print(request)
     extra_header=dict(request.headers)
     hos=request.path.replace('/e/','')
     extra_header.update({"Origin":'https://freeplayervideo.com','Host':hos})
