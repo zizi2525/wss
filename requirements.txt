@@ -69,7 +69,7 @@ virtualenv-clone==0.5.7
 websocket==0.2.1
 websocket-client==1.5.1
 websockets==11.0.3
-Werkzeug==2.3.4
+Werkzeug==2.2.3
 wsproto==1.2.0
 yarl==1.9.2
 zope.event==4.6
