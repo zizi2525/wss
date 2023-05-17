@@ -17,6 +17,7 @@ def so(ws,**kwargs):
     id = request.args.get('id')
     print(id)
     extra_header=dict(request.headers)
+    print(request.headers)
     hos=request.path.replace('/','')
     extra_header.update({"Origin":'https://freeplayervideo.com','Host':hos})
 
