@@ -79,8 +79,6 @@ def sos(ws,**kwargs):
 "Accept-Language": request.headers['Accept-Language'],
 "Accept-Encoding": request.headers['Accept-Encoding'],
 "Sec-WebSocket-Version":str(request.headers['Sec-WebSocket-Version']),
-
-"Sec-WebSocket-Extensions": request.headers['Sec-WebSocket-Extensions'],
 "Sec-WebSocket-Key": request.headers['Sec-WebSocket-Key'],
 "Sec-WebSocket-Protocol": request.headers['Sec-WebSocket-Protocol'],
 "Connection": request.headers['Connection'],
